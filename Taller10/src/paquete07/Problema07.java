@@ -46,7 +46,8 @@ public class Problema07 {
         }
         if (diferentes > 0) {
             System.out.printf("La identidad algebraica no se cumple, ya que hay "
-                    + "%s posicion/es done los valores son diferentes", diferentes);
+                    + "%s posicion/es done los valores son diferentes\n",
+                    diferentes);
         } else {
             System.out.println("La identidad algebraica se cumple, ya que todos "
                     + "los valores coinciden");
